@@ -34,7 +34,7 @@ if (operator == '+'|| operator == '-'|| operator == '*'|| operator == '/'){
 		printf("The result is: %.2lf",result);
 		break;
 	case '/':
-		if (num_1 == 0 || num_2 == 0){
+		if (num_2 == 0){
 			printf("You cant divide by 0!");
 			return 1;
 		}
