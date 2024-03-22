@@ -24,7 +24,7 @@ int main()
 {
 	// int array[] = {7,3,6,2,9,4,1,5,8};
 	int array[9];
-	printf("Enter your array: ");
+	printf("Enter your array[9]: ");
 	for(int i =0; i< 9 ; i++)
 	{
 		scanf("%d",&array[i]);
